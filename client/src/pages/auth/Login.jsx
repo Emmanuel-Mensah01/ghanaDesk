@@ -9,8 +9,7 @@ import { useNavigate, Link }   from 'react-router-dom'
 import useAuth   from '../../hooks/useAuth'
 import Input     from '../../components/ui/Input'
 import Button    from '../../components/ui/Button'
-import API_BASE from '../../config'
-
+import API_BASE from '../../api/config'
 export default function Login() {
 
   const navigate              = useNavigate()
