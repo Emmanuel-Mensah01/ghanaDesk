@@ -33,6 +33,7 @@ app.use(helmet())
 app.use(cors({
   origin: "https://ghana-desk.vercel.app"
 }))
+
 app.use(morgan('dev'))
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))

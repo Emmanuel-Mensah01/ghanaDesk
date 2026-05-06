@@ -9,6 +9,7 @@ import { useNavigate, Link }   from 'react-router-dom'
 import useAuth   from '../../hooks/useAuth'
 import Input     from '../../components/ui/Input'
 import Button    from '../../components/ui/Button'
+import API_BASE from '../../config'
 
 export default function Login() {
 
@@ -50,7 +51,7 @@ export default function Login() {
 
     setLoading(true)
     try {
-      const res = await fetch('/api/v1/auth/login', {
+      const res = await fetch(`${API_BASE}/api/v1/auth/login`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify(form),
