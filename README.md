@@ -1,36 +1,43 @@
-# GhanaDesk 🇬🇭
+# GhanaDesk GH
 
-> A modern helpdesk and ticket management system built for Ghanaian businesses, schools, and organizations.
+🚀 A full-stack MERN helpdesk and ticketing system built to help businesses and organizations manage customer support efficiently.
 
-## Overview
+---
 
-GhanaDesk is a full-stack SaaS-style support ticketing platform. Customers submit tickets without an account, track status in real time, and receive updates from support agents.
+## 🧠 Overview
 
-Built under **EM Control IT Solutions** by Emmanuel Mensah.
+GhanaDesk is a SaaS-style support ticketing platform where users can submit tickets without creating an account, track their status in real time, and receive updates from support agents.
 
-## Features
+The system includes dedicated staff and admin dashboards for managing tickets, users, and overall system activity.
 
-- Submit support tickets — no account needed
-- Unique Ticket ID per submission (GHD-XXXXXX)
-- Real-time ticket tracking with status timeline
-- Staff portal — manage assigned tickets, reply to customers
-- Admin portal — full stats, all tickets, agent management
-- Role-based access control (Admin / Staff)
-- JWT authentication
+---
 
-## Tech Stack
+## ✨ Features
 
-| Layer    | Technology                        |
-|----------|-----------------------------------|
-| Frontend | React (Vite), React Router, Axios |
-| Styling  | Plain CSS, CSS Custom Properties  |
-| Backend  | Node.js, Express.js               |
-| Database | MongoDB with Mongoose             |
-| Auth     | JWT, bcryptjs                     |
+* Submit support tickets without an account
+* Unique Ticket ID generation (GHD-XXXXXX)
+* Real-time ticket tracking with status timeline
+* Staff dashboard for managing assigned tickets and replies
+* Admin dashboard with analytics and full system control
+* Role-based access control (Admin / Staff)
+* Secure authentication using JWT
 
-## Getting Started
+---
+
+## ⚙️ Tech Stack
+
+**Frontend:** React (Vite), React Router, Axios
+**Styling:** CSS, CSS Variables
+**Backend:** Node.js, Express.js
+**Database:** MongoDB (Mongoose)
+**Authentication:** JWT, bcryptjs
+
+---
+
+## 🚀 Getting Started
 
 ### Backend
+
 ```bash
 cd server
 npm install
@@ -38,21 +45,34 @@ npm run dev
 ```
 
 ### Frontend
+
 ```bash
 cd client
 npm install
 npm run dev
 ```
 
-### Demo Accounts
+---
 
-| Role  | Email               | Password   |
-|-------|---------------------|------------|
-| Admin | admin@ghanaDesk.com | Admin@1234 |
-| Staff | staff@ghanaDesk.com | Staff@1234 |
+## 🔐 Demo Accounts
 
-## Author
+| Role  | Email                                             | Password   |
+| ----- | ------------------------------------------------- | ---------- |
+| Admin | [admin@ghanadesk.com](mailto:admin@ghanadesk.com) | Admin@1234 |
+| Staff | [staff@ghanadesk.com](mailto:staff@ghanadesk.com) | Staff@1234 |
 
-**Emmanuel Mensah** — EM Control IT Solutions — Accra, Ghana
+---
 
-> Building real SaaS products for the Ghanaian market.
+## 📌 Project Status
+
+🛠️ Actively in development — deployment coming soon.
+
+---
+
+## 👨‍💻 Author
+
+**Emmanuel Mensah**
+MERN Stack Developer
+Accra, Ghana
+
+Building real-world SaaS solutions for the Ghanaian market.
